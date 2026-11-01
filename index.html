@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>折记 · 安装</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+    background: radial-gradient(900px 500px at 85% 0%, rgba(233,184,124,.22), transparent 70%),
+                radial-gradient(700px 500px at 0% 100%, rgba(44,58,78,.35), transparent 70%), #08080a;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "PingFang SC", sans-serif;
+    color: #f6f1e9; padding: 28px;
+  }
+  .card { width: 100%; max-width: 420px; text-align: center; }
+  .icon { width: 108px; height: 108px; border-radius: 26px; box-shadow: 0 18px 50px rgba(0,0,0,.5); }
+  h1 { font-size: 30px; margin: 22px 0 4px; letter-spacing: 1px; }
+  .sub { color: #a9a49d; font-size: 13px; margin: 0 0 26px; }
+  .btn {
+    display: block; text-decoration: none; color: #1a1208; font-weight: 650; font-size: 16px;
+    padding: 15px 20px; border-radius: 16px; margin: 0 0 14px;
+    background: linear-gradient(135deg, #ffd9a8, #e9b87c 55%, #b9722f);
+    box-shadow: 0 12px 30px rgba(233,184,124,.25);
+  }
+  .note { color: #6f6b66; font-size: 11px; line-height: 1.7; text-align: left; margin-top: 22px; }
+  .note b { color: #a9a49d; font-weight: 600; }
+  .dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: #9bd8bc; margin-right: 6px; }
+</style>
+</head>
+<body>
+  <main class="card">
+    <img class="icon" src="icon512.png" alt="折记">
+    <h1>折记</h1>
+    <p class="sub"><span class="dot"></span>iPhone Duo · 折叠次数记录</p>
+    <a class="btn" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fkelvin12399.github.io%2Ffoldly-ota%2Fmanifest.xml">安装到 iPhone</a>
+    <p class="sub" style="margin:0">开发签名 · 仅限已注册设备</p>
+    <p class="note">
+      <b>安装步骤</b><br>
+      1. 用 Safari 打开本页（微信 / 其他 App 内置浏览器不行）。<br>
+      2. 点「安装到 iPhone」，回到桌面等待图标出现。<br>
+      3. 首次打开若提示未受信任：设置 → 通用 → VPN 与设备管理 → “shuangbin he” → 信任。<br>
+      4. 若提示需要开发者模式：设置 → 隐私与安全性 → 开发者模式 → 打开并重启。<br><br>
+      <b>注意</b><br>
+      · 这是开发签名版本，描述文件一年有效（至 2027-11-01），设备 UDID 已在描述文件内。<br>
+      · 安装包链接由限时托管提供，过期后重新构建 / 重新上传即可。
+    </p>
+  </main>
+</body>
+</html>
