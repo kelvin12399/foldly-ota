@@ -34,7 +34,7 @@
     <img class="icon" src="icon512.png" alt="折记">
     <h1>折记</h1>
     <p class="sub"><span class="dot"></span>iPhone Duo · 折叠次数记录</p>
-    <a class="btn" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fkelvin12399%2Ffoldly-ota%40v1.0%2Fmanifest.xml">安装到 iPhone</a>
+    <a class="btn" href="itms-services://?action=download-manifest&amp;url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fkelvin12399%2Ffoldly-ota%40v1.1%2Fmanifest.xml">安装到 iPhone</a>
     <p class="sub" style="margin:0">开发签名 · 仅限已注册设备</p>
     <p class="note">
       <b>安装步骤</b><br>
@@ -42,8 +42,14 @@
       2. 点「安装到 iPhone」，回到桌面等待图标出现。<br>
       3. 首次打开若提示未受信任：设置 → 通用 → VPN 与设备管理 → “shuangbin he” → 信任。<br>
       4. 若提示需要开发者模式：设置 → 隐私与安全性 → 开发者模式 → 打开并重启。<br><br>
+      <b>装好后必须再做一步</b><br>
+      打开折记，按首页「后台自动计数」提示，在快捷指令里建两条「打开或关闭」自动化：<br>
+      · 关闭 → 记录折叠<br>
+      · 打开 → 记录展开<br>
+      不建的话，只有 App 在前台时才会计数，合上手机后折的不会记录。<br><br>
       <b>注意</b><br>
       · 这是开发签名版本，描述文件一年有效（至 2027-11-01），设备 UDID 已在描述文件内。<br>
+      · 小组件刷新受 iOS 调度；每次折叠都会请求刷新，若没立刻变，等几秒或打开一次 App。<br>
       · 安装包链接由限时托管提供，过期后重新构建 / 重新上传即可。
     </p>
   </main>
