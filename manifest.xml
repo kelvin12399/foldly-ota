@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>https://relay.kelvinhe.com:6868/v1/tempfiles/18d9e261b1c804d9831b733789cb481d/HCmWXUKEpNndmN2GVLO-yCnSw7GGNdT2YJfTGvp1V10/icon57.png</string>
+					<string>https://kelvin12399.github.io/foldly-ota/icon57.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,7 +27,7 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>https://relay.kelvinhe.com:6868/v1/tempfiles/6022587703e735d5bc5d80b0508adaf1/ujJIqyQHAj_y60BGaS1Ei4iDCLSkEqntE-9XNKBE_5U/icon512.png</string>
+					<string>https://kelvin12399.github.io/foldly-ota/icon512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -35,7 +35,7 @@
 				<key>bundle-identifier</key>
 				<string>com.shuanbin.foldly</string>
 				<key>bundle-version</key>
-				<string>1.0</string>
+				<string>1</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>
