@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://relay.kelvinhe.com:6868/v1/tempfiles/1807d356bdd874cc4baa946f2981d146/do_ZP2RjBgg8dzJBGjy4WeLsqOdxFFujESXjM68thbU/Foldly.ipa</string>
+					<string>https://relay.kelvinhe.com:6868/v1/tempfiles/f0a75d8677321b148db715dac239ffd5/-L47xwwkIFwT57oSNIWzQ6YLDGCCqWMMJ_V2y4WP9XI/Foldly.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>https://cdn.jsdelivr.net/gh/kelvin12399/foldly-ota@v1.2/icon57.png</string>
+					<string>https://cdn.jsdelivr.net/gh/kelvin12399/foldly-ota@v1.3/icon57.png</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,7 +27,7 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>https://cdn.jsdelivr.net/gh/kelvin12399/foldly-ota@v1.2/icon512.png</string>
+					<string>https://cdn.jsdelivr.net/gh/kelvin12399/foldly-ota@v1.3/icon512.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
@@ -35,7 +35,7 @@
 				<key>bundle-identifier</key>
 				<string>com.shuanbin.foldly</string>
 				<key>bundle-version</key>
-				<string>3</string>
+				<string>4</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>platform-identifier</key>
